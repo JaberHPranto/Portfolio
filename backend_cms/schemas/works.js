@@ -25,6 +25,11 @@ export default {
       type: "string",
     },
     {
+      name: "status",
+      title: "Status",
+      type: "string",
+    },
+    {
       name: "imgUrl",
       title: "ImageUrl",
       type: "image",

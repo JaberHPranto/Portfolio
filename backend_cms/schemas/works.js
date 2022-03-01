@@ -30,6 +30,11 @@ export default {
       type: "string",
     },
     {
+      name: "orderOfProject",
+      title: "OrderOfProject",
+      type: "number",
+    },
+    {
       name: "imgUrl",
       title: "ImageUrl",
       type: "image",

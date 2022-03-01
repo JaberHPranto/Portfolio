@@ -33,7 +33,7 @@ const Work = () => {
       });
   }, []);
 
-  console.log(filterWorks);
+  // console.log(filterWorks);
 
   const handleWorkFilter = (item) => {
     setActiveFilter(item);
@@ -139,4 +139,4 @@ const Work = () => {
   );
 };
 
-export default AppWrap(Work, "app__works");
+export default AppWrap(Work, "work", "app__work");

@@ -1,5 +1,4 @@
 .header__container {
-  background-color: purple;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -9,8 +8,7 @@
 
 .header__col-1 {
   width: 55%;
-  background-color: salmon;
-  // padding: 4rem 4rem 4rem 4rem;
+  background-color: var(--secondary-color);
   padding-left: 4rem;
   padding-top: 2rem;
   gap: 0.5rem;
@@ -21,16 +19,18 @@
   .header__name {
     // transform: rotate(-10deg) skew(-10deg, 0);
     font-family: "Kaushan Script", cursive;
+    color: #404040;
   }
   .header__desc {
     font-family: "Signika", sans-serif;
     font-size: 4.5rem;
     flex-wrap: wrap;
     font-weight: bold;
+    color: #404040;
     span {
-      color: salmon;
-      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-        1px 1px 0 #000;
+      color: var(--secondary-color);
+      text-shadow: -1px -1px 0 #404040, 1px -1px 0 #404040, -1px 1px 0 #404040,
+        2px 2px 0 #404040;
     }
 
     @media screen and (max-width: 1000px) {
@@ -50,7 +50,7 @@
   }
 }
 .header__col-2 {
-  background-color: cornflowerblue;
+  background-color: #e7e1e7;
   width: 25%;
   display: flex;
   align-items: center;
@@ -73,7 +73,7 @@
   }
 }
 .header__col-3 {
-  background-color: seagreen;
+  background-color: var(--secondary-color);
   width: 20%;
 
   @media screen and (max-width: 700px) {

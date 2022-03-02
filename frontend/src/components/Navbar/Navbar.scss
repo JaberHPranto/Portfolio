@@ -13,18 +13,11 @@
 }
 
 .app__navbar-logo {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-
-  img {
-    height: 20px;
-    width: 90px;
-
-    @media screen and (min-width: 2000px) {
-      height: 40px;
-      width: 180px;
-    }
+  font-family: "Kaushan Script", cursive;
+  font-weight: bold;
+  font-size: 1.5rem;
+  span {
+    font-size: 1rem;
   }
 }
 .app__navbar-links {

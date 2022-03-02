@@ -129,10 +129,14 @@
     align-items: center;
 
     transition: all 0.3s ease-in-out;
+    a {
+      display: grid;
+      place-content: center;
+    }
 
     svg {
-      width: 15px;
-      height: 15px;
+      width: 18px;
+      height: 18px;
       color: var(--gray-color);
     }
 

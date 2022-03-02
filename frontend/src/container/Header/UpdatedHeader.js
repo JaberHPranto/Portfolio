@@ -5,7 +5,7 @@ import "./UpdatedHeader.scss";
 function UpdatedHeader() {
   return (
     <>
-      <div className="header__container">
+      <div className="header__container" id="newHome">
         <div className="header__col-1">
           <div className="header__name">
             <h2>👋 Hello, I'm Pranto</h2>

@@ -10,6 +10,16 @@
 .app__primarybg {
   background-color: var(--primary-color);
 }
+.app__aboutBg {
+  background-color: #fccf77;
+}
+.app__worksBg {
+  background-color: #b7e4c7;
+}
+.app__footerBg {
+  // background-color: #be95c4;
+  background-color: #e0aaff;
+}
 
 .app__container {
   width: 100%;
@@ -56,7 +66,7 @@
   font-size: 2.75rem;
   font-weight: 800;
   text-align: center;
-  color: var(--black-color);
+  color: var(--font-base-color);
   text-transform: capitalize;
 
   span {

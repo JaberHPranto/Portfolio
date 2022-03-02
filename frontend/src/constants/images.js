@@ -8,10 +8,10 @@ import css from "../assets/css.png";
 import email from "../assets/email.png";
 import git from "../assets/git.png";
 import hero from "../assets/hero.png";
-import heroCopy from "../assets/heroCopy.png";
 import html from "../assets/html.png";
 import javascript from "../assets/javascript.png";
 import logo from "../assets/logo.png";
+import mail from "../assets/mail.png";
 import mobile from "../assets/mobile.png";
 import mu5 from "../assets/mu5.png";
 import node from "../assets/node.png";
@@ -43,5 +43,5 @@ export default {
   circle,
   logo,
   hero,
-  heroCopy,
+  mail,
 };

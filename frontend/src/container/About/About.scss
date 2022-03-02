@@ -13,7 +13,7 @@
 }
 
 .app__profile-item {
-  width: 190px;
+  width: 210px;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -32,5 +32,32 @@
     img {
       height: 320px;
     }
+  }
+}
+
+.about__title {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--black-color);
+  text-align: center;
+  width: 100%;
+
+  @media screen and (min-width: 2000px) {
+    font-size: 2rem;
+  }
+
+  @media screen and (max-width: 450px) {
+    font-size: 0.9rem;
+  }
+}
+.about__details {
+  width: 100%;
+  text-align: center;
+  font-family: "Lato";
+  color: rgba($color: #404040, $alpha: 0.8);
+  font-size: 0.9rem;
+
+  @media screen and (max-width: 450px) {
+    font-size: 0.7rem;
   }
 }

@@ -22,10 +22,7 @@ const About = () => {
 
   return (
     <>
-      <h2 className="head-text">
-        I know that <span>Good Development</span> <br />
-        means <span>Good Business</span>
-      </h2>
+      <h2 className="head-text">Things I Love to do</h2>
 
       <div className="app__profiles">
         {abouts.map((about, index) => (
@@ -37,10 +34,13 @@ const About = () => {
             key={about.title + index}
           >
             <img src={urlFor(about.imgUrl)} alt={about.title} />
-            <h2 className="bold-text" style={{ marginTop: 20 }}>
+            <h1
+              className="about__title"
+              style={{ marginTop: 20, textAlign: "center" }}
+            >
               {about.title}
-            </h2>
-            <p className="p-text" style={{ marginTop: 10 }}>
+            </h1>
+            <p className="p-text about__details" style={{ marginTop: 10 }}>
               {about.description}
             </p>
           </motion.div>
@@ -53,5 +53,5 @@ const About = () => {
 export default AppWrap(
   MotionWrap(About, "app__about"),
   "about",
-  "app__whitebg"
+  "app__aboutBg"
 );

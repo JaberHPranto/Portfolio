@@ -71,14 +71,14 @@
       height: 150px;
     }
     &:hover {
-      box-shadow: 0 0 20px var(--white-color);
+      box-shadow: 0 0 10px var(--white-color);
     }
   }
   button {
     padding: 1rem 2rem;
     border-radius: 10px;
     border: none;
-    background-color: var(--secondary-color);
+    background-color: #53aed9;
 
     font-weight: 500;
     color: var(--white-color);
@@ -90,7 +90,7 @@
     cursor: pointer;
 
     &:hover {
-      background-color: #2430af;
+      background-color: #2f9ed2;
     }
   }
   @media screen and (max-width: 768px) {

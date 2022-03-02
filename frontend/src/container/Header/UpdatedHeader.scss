@@ -19,14 +19,14 @@
   .header__name {
     // transform: rotate(-10deg) skew(-10deg, 0);
     font-family: "Kaushan Script", cursive;
-    color: #404040;
+    color: var(--font-base-color);
   }
   .header__desc {
     font-family: "Signika", sans-serif;
     font-size: 4.5rem;
     flex-wrap: wrap;
     font-weight: bold;
-    color: #404040;
+    color: var(--font-base-color);
     span {
       color: var(--secondary-color);
       text-shadow: -1px -1px 0 #404040, 1px -1px 0 #404040, -1px 1px 0 #404040,
@@ -50,7 +50,7 @@
   }
 }
 .header__col-2 {
-  background-color: #e7e1e7;
+  background-color: #ebe8eb;
   width: 25%;
   display: flex;
   align-items: center;

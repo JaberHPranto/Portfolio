@@ -1,6 +1,7 @@
 .app__skills {
   flex: 1;
   width: 100%;
+  // background-color: #f3f4f6;
   flex-direction: column;
 }
 .app__skills-container {
@@ -22,6 +23,7 @@
   // margin-right: 5rem;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
   flex-wrap: wrap;
   @media screen and (max-width: 900px) {
     margin-right: 0;
@@ -40,7 +42,6 @@
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    background-color: var(--primary-color);
 
     img {
       height: 50%;
@@ -72,4 +73,8 @@
       margin-top: 1rem;
     }
   }
+}
+.skills__name {
+  font-weight: bold !important;
+  margin-top: 0.6rem !important;
 }

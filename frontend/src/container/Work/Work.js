@@ -59,9 +59,7 @@ const Work = () => {
 
   return (
     <>
-      <h2 className="head-text">
-        Things I have <span>Built</span>
-      </h2>
+      <h2 className="head-text">Things I have Built</h2>
 
       <div className="app__work-filter">
         {workSector.map((item, index) => (
@@ -139,8 +137,4 @@ const Work = () => {
   );
 };
 
-export default AppWrap(
-  MotionWrap(Work, "app__works"),
-  "work",
-  "app__primarybg"
-);
+export default AppWrap(MotionWrap(Work, "app__works"), "work", "app__worksBg");
